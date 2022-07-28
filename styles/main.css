@@ -1,17 +1,28 @@
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  background-color: #f5f7fb;
+}
 
-        body { font-family: Arial, Helvetica, sans-serif;
-        }
-
-        label {
-            margin: 10px;
-        }
-
-        input {
-            margin-left:10px;
-        }
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
 
 
-table, th, td {
-    border: 1px solid black;
+label {
+  margin: 10px;
+}
 
+input {
+  margin-left: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
 }
