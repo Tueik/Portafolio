@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid-container {
+            display: grid;
+            background-color: cornsilk;
+            grid-template-columns: auto auto auto;
+            /*  Gap define el espacio entre cada fila/columna */
+            /* gap: 20px */
+            /* gap: 40px;
+            column-gap: 50px; */
+            grid-template-rows: 50px auto 100px;
+        }
+
+        /* De grind continer aplica textos a todos sus DIV que estén dentro */
+        .grid-container div {
+            text-align: center;
+            background-color: crimson;
+            color: white;
+            border: 1px solid black;
+
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+
+<div class="grid-container">
+    <div class="classitem1">1</div>
+    <div class="classitem2">2</div>
+    <div class="classitem3">3</div>
+    <div class="classitem4">4</div>
+    <div class="classitem5">5</div>
+    <div class="classitem6">6</div>
+    <div class="classitem7">7</div>
+    <div class="classitem8">8</div>
+    <div class="classitem9">9</div>
+    <!-- <div class="classitem1">10</div> -->
+
+</div>
+
+
+</body>
+</html>
