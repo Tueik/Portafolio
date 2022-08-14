@@ -7,3 +7,4 @@
 // // usamos un console.log para mostrar lo que se guardó en la variable nombre
 // console.log(nombre);
 
+

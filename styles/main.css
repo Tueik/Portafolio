@@ -24,11 +24,33 @@ body {
 }
 
 .form-text {
-  color: yellow;
+  color: azure;
 }
 
-.socialmedianame 
-  color: rgb(217, 22, 217);
+.userstag {
+  color: rgb(19, 220, 153);
+}
+
+.SocialMedia {
+display: flex;
+align-items:center;
+justify-content: center;
+text-align:center;
+flex-direction: column;
+color: rgb(212, 240, 1);
+
+} 
+
+h2 {
+  color: azure;
+}
+
+.th {
+ color:white;
+}
+
+
+
 /*
 * {
   box-sizing: border-box;
@@ -40,7 +62,7 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-} */
+} 
 
 /* Comentar para evitar errores con estilos de bootstrap */
 
@@ -97,7 +119,7 @@ td {
 } */
 
 
-.text-center {
+/* .text-center {
 
   color: aliceblue;
 
@@ -106,6 +128,6 @@ td {
 .social-links {
   color: rgb(0, 234, 255);
   
-}
+} */
 
 
